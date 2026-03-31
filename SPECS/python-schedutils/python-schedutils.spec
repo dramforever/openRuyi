@@ -16,10 +16,10 @@ URL:            https://git.kernel.org/cgit/libs/python/python-schedutils/python
 Source0:        https://cdn.kernel.org/pub/software/libs/python/%{name}/%{name}-%{version}.tar.xz
 BuildSystem:    pyproject
 
-BuildOption(install): %{srcname}
+BuildOption(install):  %{srcname}
 
 BuildRequires:  pyproject-rpm-macros
-BuildRequires:  python3-devel
+BuildRequires:  pkgconfig(python3)
 
 Provides:       python3-%{srcname}
 %python_provide python3-%{srcname}
