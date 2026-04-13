@@ -14,7 +14,7 @@ Summary:        Generic USB CCID smart card reader driver
 License:        BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.1-or-later
 URL:            https://ccid.apdu.fr/
 VCS:            git:https://salsa.debian.org/rousseau/CCID.git
-#!RemoteAsset
+#!RemoteAsset:  sha256:0000000000000000000000000000000000000000000000000000000000000000
 Source0:        https://ccid.apdu.fr/files/ccid-%{version}.tar.xz
 BuildSystem:    meson
 

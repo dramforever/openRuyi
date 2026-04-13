@@ -7,7 +7,7 @@
 # SPDX-License-Identifier: MulanPSL-2.0
 
 Name:           bindfs
-Version:        1.17.7
+Version:        1.18.4
 Release:        %autorelease
 Summary:        A FUSE filesystem for mirroring a directory with altered permissions
 License:        GPL-2.0-or-later
