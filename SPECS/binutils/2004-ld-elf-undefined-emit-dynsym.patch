@@ -1,0 +1,14 @@
+diff --git a/bfd/elfnn-riscv.c b/bfd/elfnn-riscv.c
+index eb3d7926c..c352e5eba 100644
+--- a/bfd/elfnn-riscv.c
++++ b/bfd/elfnn-riscv.c
+@@ -1446,7 +1446,8 @@ allocate_dynrelocs (struct elf_link_hash_entry *h, void *inf)
+ 	  && !bfd_elf_link_record_dynamic_symbol (info, h))
+ 	return false;
+ 
+-      if (WILL_CALL_FINISH_DYNAMIC_SYMBOL (1, bfd_link_pic (info), h))
++      if (bfd_link_pic (info)
++	  || WILL_CALL_FINISH_DYNAMIC_SYMBOL (1, 0, h))
+ 	{
+ 	  asection *s = htab->elf.splt;
+ 
