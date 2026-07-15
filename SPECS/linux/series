@@ -113,7 +113,6 @@
 0113-UPSTREAM-riscv-add-UltraRISC-SoC-family-Kconfig-supp.patch
 0114-UPSTREAM-riscv-defconfig-enable-ARCH_ULTRARISC.patch
 0115-UPSTREAM-selftests-rseq-Fix-a-building-error-for-ris.patch
-0116-FROMLIST-riscv-errata-Add-ERRATA_THEAD_WRITE_ONCE-fi.patch
 0117-FROMLIST-PCI-Add-per-device-flag-to-disable-native-P.patch
 0118-FROMLIST-PCI-Add-quirk-to-disable-PCIe-port-services.patch
 0119-FROMLIST-PCI-Release-BAR0-of-an-integrated-bridge-to.patch
@@ -227,7 +226,6 @@
 0227-SOPHGO-riscv-dts-sophgo-sg2044-Add-eFUSE-device.patch
 0228-SOPHGO-riscv-sg2042-errata-Replace-thead-cache-clean.patch
 0229-SOPHGO-dts-sg2044-Modify-pcie-bar-address.patch
-0230-SPACEMIT-riscv-uaccess-don-t-use-vector-if-buffer-is.patch
 0231-RUYI-PCI-add-SpacemiT-vendor-id-and-its-K3-device-id.patch
 0232-RUYI-wifi-rtw89-pci-add-SpacemiT-K3-to-36-bit-DMA-al.patch
 0233-RUYI-drm-amdgpu-disable-dynamic-PCIe-speed-switch-on.patch
