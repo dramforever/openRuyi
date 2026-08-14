@@ -237,7 +237,6 @@
 0237-SOPHGO-riscv-dts-sophgo-sg2044-Add-eFUSE-device.patch
 0238-SOPHGO-riscv-sg2042-errata-Replace-thead-cache-clean.patch
 0239-SOPHGO-dts-sg2044-Modify-pcie-bar-address.patch
-0240-SPACEMIT-riscv-uaccess-don-t-use-vector-if-buffer-is.patch
 0241-RUYI-drm-amdgpu-disable-dynamic-PCIe-speed-switch-on.patch
 0242-RUYI-mmc-sdhci-of-dwcmshc-Add-support-for-SG2042-FPG.patch
 0243-RUYI-riscv-dts-sophgo-sg2044-srd3-add-spifmc-node.patch
